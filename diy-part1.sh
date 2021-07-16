@@ -7,7 +7,7 @@ rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 # Add a feed source
-sed -i 's/PATCHVER:=5.10/PATCHVER:=5.4/g' target/linux/x86/Makefile
+#sed -i 's/PATCHVER:=5.10/PATCHVER:=5.4/g' target/linux/x86/Makefile
 #sed -i '$a src-git lienol https://github.com/kenzok8/openwrt-packages.git' feeds.conf.default
 echo 'src-git helloworld https://github.com/fw876/helloworld'>>feeds.conf.default
 ./scripts/feeds update -a && ./scripts/feeds install -a
