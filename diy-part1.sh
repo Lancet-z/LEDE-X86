@@ -1,7 +1,6 @@
 #!/bin/bash
 #新的argon主题
-rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
+rm -rf ./package/lean/luci-theme-argon
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 # Add a feed source
 #sed -i 's/PATCHVER:=5.10/PATCHVER:=5.4/g' target/linux/x86/Makefile
@@ -9,4 +8,5 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git pac
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.default
 
