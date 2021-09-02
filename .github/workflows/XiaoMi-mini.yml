@@ -21,7 +21,7 @@ on:
     inputs:
       ssh:
         description: 'SSH远程'
-        required: true
+        required: false
         default: 'false'
 
 env:
