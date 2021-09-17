@@ -7,6 +7,6 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git pac
 #sed -i '$a src-git lienol https://github.com/kenzok8/openwrt-packages.git' feeds.conf.default
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
+#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
 echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.default
 #echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
