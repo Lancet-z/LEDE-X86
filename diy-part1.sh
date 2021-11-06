@@ -11,5 +11,6 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feed
 echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.default
 echo 'src-git ifit https://github.com/kenzok8/luci-theme-ifit.git' >>feeds.conf.default
 echo 'src-git infinityfreedom https://github.com/Chikage0o0/luci-theme-infinityfreedom.git' >>feeds.conf.default
+echo 'src-git idol https://github.com/Lancet-z/luci-theme-idol.git' >>feeds.conf.default
 echo 'src-git ims https://github.com/Lancet-z/luci-theme-im-s.git' >>feeds.conf.default
 #echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
