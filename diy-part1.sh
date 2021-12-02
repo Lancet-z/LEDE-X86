@@ -5,10 +5,8 @@ rm -rf ./package/lean/luci-app-jd-dailybonus
 # Add a feed source
 #sed -i 's/PATCHVER:=5.10/PATCHVER:=5.4/g' target/linux/x86/Makefile
 #sed -i '$a src-git lienol https://github.com/kenzok8/openwrt-packages.git' feeds.conf.default
-# Add a feed source
+# 科学插件
 echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
-#上古版本的ssr只含有ssr
-echo "src-git ssr https://github.com/Lancet-z/luci-app-ssr-plus.git" >> "feeds.conf.default"
 #主题列表
 echo 'src-git Fuyuko https://github.com/Lancet-z/luci-theme-Fuyuko.git' >>feeds.conf.default
 echo 'src-git idol https://github.com/Lancet-z/luci-theme-idol.git' >>feeds.conf.default
