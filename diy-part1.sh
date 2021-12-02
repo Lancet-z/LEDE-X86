@@ -8,7 +8,7 @@ rm -rf ./package/lean/luci-app-jd-dailybonus
 # Add a feed source
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
 echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
-echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
+echo "src-git ssr https://github.com/Lancet-z/luci-app-ssr-plus.git" >> "feeds.conf.default"
 #主题列表
 echo 'src-git Fuyuko https://github.com/Lancet-z/luci-theme-Fuyuko.git' >>feeds.conf.default
 echo 'src-git idol https://github.com/Lancet-z/luci-theme-idol.git' >>feeds.conf.default
