@@ -7,6 +7,7 @@ rm -rf ./package/lean/luci-app-jd-dailybonus
 #sed -i '$a src-git lienol https://github.com/kenzok8/openwrt-packages.git' feeds.conf.default
 # 科学插件
 echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
 #主题列表
 echo 'src-git Fuyuko https://github.com/Lancet-z/luci-theme-Fuyuko.git' >>feeds.conf.default
 echo 'src-git idol https://github.com/Lancet-z/luci-theme-idol.git' >>feeds.conf.default
