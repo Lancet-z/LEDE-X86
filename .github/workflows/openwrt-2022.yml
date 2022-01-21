@@ -1,4 +1,4 @@
-name: 开始编译X86固件
+name: 开始编译2022官方固件
 
 on:
   repository_dispatch:
