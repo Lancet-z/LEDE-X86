@@ -7,12 +7,12 @@ sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' packag
 
 #添加额外软件包
 #mkdir -p package/helloworld
-#for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2"; do \
- # svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
-#done
+for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2"; do \
+  svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
+done
 
-#svn checkout https://github.com/coolsnowwolf/lede/trunk/tools/ucl tools/ucl
-#svn checkout https://github.com/coolsnowwolf/lede/trunk/tools/upx tools/upx
+svn checkout https://github.com/coolsnowwolf/lede/trunk/tools/ucl tools/ucl
+svn checkout https://github.com/coolsnowwolf/lede/trunk/tools/upx tools/upx
 
-#sed -i 'N;24a\tools-y += ucl upx' tools/Makefile
-#sed -i 'N;40a\$(curdir)/upx/compile := $(curdir)/ucl/compile' tools/Makefile
+sed -i 'N;24a\tools-y += ucl upx' tools/Makefile
+sed -i 'N;40a\$(curdir)/upx/compile := $(curdir)/ucl/compile' tools/Makefile
