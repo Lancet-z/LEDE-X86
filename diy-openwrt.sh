@@ -10,8 +10,8 @@ rm -rf ./package/lean/luci-app-jd-dailybonus
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
 #主题列表
-3echo 'src-git Fuyuko https://github.com/Lancet-z/luci-theme-Fuyuko.git' >>feeds.conf.default
-3echo 'src-git idol https://github.com/Lancet-z/luci-theme-idol.git' >>feeds.conf.default
+#echo 'src-git Fuyuko https://github.com/Lancet-z/luci-theme-Fuyuko.git' >>feeds.conf.default
+#echo 'src-git idol https://github.com/Lancet-z/luci-theme-idol.git' >>feeds.conf.default
 #echo 'src-git Valkyrie https://github.com/Lancet-z/luci-theme-Valkyrie.git' >>feeds.conf.default
 echo 'src-git Rinze https://github.com/Lancet-z/luci-theme-Rinze.git' >>feeds.conf.default
 #废弃部分
