@@ -8,7 +8,7 @@
 # 科学插件
 #echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small-package.git' >>feeds.conf.default
+#echo 'src-git small https://github.com/kenzok8/small-package.git' >>feeds.conf.default
 
 #主题列表
 #echo 'src-git Fuyuko https://github.com/Lancet-z/luci-theme-Fuyuko.git' >>feeds.conf.default
