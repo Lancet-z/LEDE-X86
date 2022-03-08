@@ -17,6 +17,14 @@ sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_genera
 # 修改主机名字，把OpenWrt-123修改你喜欢的就行（不能使用中文）
 sed -i '/uci commit system/i\uci set system.@system[0].hostname='Lancet'' package/lean/default-settings/files/zzz-default-settings
 
+# echo "修改wifi名称"
+#sed -i "s/OpenWrt/$wifi_name/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+
+# 修改时区
+sed -i "s/'UTC'/'CST-8'\n   set system.@system[-1].zonename='$utc_name'/g" package/base-files/files/bin/config_generate
+
+
 # 版本号里显示一个自己的名字（281677160 build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）；
 sed -i "s/OpenWrt /迷宫旅人.ver $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
