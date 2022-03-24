@@ -16,9 +16,7 @@
 name: 开始编译ZTE-E8820S固件
 
 on:
-  schedule:
-    - cron: 0 8 * * 5
-    
+
   repository_dispatch:
   workflow_dispatch:
     inputs:
