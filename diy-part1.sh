@@ -9,7 +9,7 @@ rm -rf ./package/lean/luci-theme-argon
 #echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
 #echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small.git' >>feeds.conf.default
+echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git' >>feeds.conf.default
 
 #主题列表
 #echo 'src-git Fuyuko https://github.com/Lancet-z/luci-theme-Fuyuko.git' >>feeds.conf.default
